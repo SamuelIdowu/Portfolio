@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 9rem;
+}
+input{
+    width: 100%;
+    margin: 1rem;
+}
