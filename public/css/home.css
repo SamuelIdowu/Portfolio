@@ -243,7 +243,6 @@ div.body{
 }
 .projects .project a:hover{
   background-color: inherit;
-  font-size: larger;
   transition: .5s;
   color: var(--primary-color-one);
 }
