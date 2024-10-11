@@ -20,7 +20,7 @@ body {
   overflow-x: hidden;
 }
 div.body{
-  margin-top: 10rem;
+  margin-top: 4rem;
 }
 /* desktop setting */
 @media only screen and (min-width: 600px) {
@@ -29,6 +29,8 @@ div.body{
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: var(--secondary-color-two);
+    margin: 2.5rem;
+    margin-top: 5rem;
   }
   .hero div {
     flex: 1 1 25%;
@@ -37,7 +39,12 @@ div.body{
     /* width: 50%; */
     float: right;
   }
-  .about .about-intro {
+  .hero-intro {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+  } 
+   .about .about-intro {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -48,11 +55,13 @@ div.body{
   }
   .skills .skill-cont .skill-item {
     flex: 1 1 25%;
+    margin: 1rem;
   }
   .skills .skill-cont {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 1rem;
   }
   .why-cnt div {
     width: 60%;
@@ -88,7 +97,10 @@ div.body{
   body {
     max-width: 600px;
   }
-
+  .hero{
+    margin: 1rem;
+    margin-top: 2rem;
+  }
   .contact-form .data {
     display: block;
   }
@@ -98,6 +110,12 @@ div.body{
   .tools marquee span i {
     font-size: 20px;
   }
+  .skills{
+    margin: 1rem;
+  }
+  .skill-item{
+    margin: 1rem;
+  }
 }
 
 /* .dark-mode {
@@ -105,8 +123,6 @@ div.body{
   color: var(--primary-color-two);
 } */
 .hero {
-  margin: 2.5rem;
-  margin-top: 5rem;
   background-color: var(--secondary-color-two);
   padding: 1rem;
   border-radius: 1rem;
@@ -117,21 +133,17 @@ div.body{
 /* .hero div{
   flex: 1 1 25%;
 } */
+ .hero-header{
+  margin-top: -1rem;
+ }
 .hero-header h1 {
   font-size: 2rem;
-}
-.hero-header {
-  margin-top: 1rem;
 }
 .hero-intro p {
   font-size: 1.2rem;
   text-align: justify;
 }
-.hero-intro {
-  margin: 1rem;
-  padding: 1rem;
-  border-radius: 1rem;
-}
+
 /* .hero .hero-img {
   float: right;
 } */
@@ -150,7 +162,7 @@ div.body{
   border: 2px var(--secondary-color-one) solid;
   padding: 0.5rem;
   border-radius: 1rem;
-  margin-top: 1rem;
+  margin-top: .5rem;
   font-weight: 600;
   background-color: var(--secondary-color-one);
   color: var(--primary-color-two);
@@ -165,7 +177,11 @@ div.body{
   flex-wrap: wrap;
   justify-content: space-around; */
   font-size: 18px;
-  margin: 2.5rem;
+  margin: 2rem;
+}
+.underline-text{
+  border-bottom: var(--secondary-color-one) solid 2px;
+  width: auto;
 }
 .center-txt {
   text-align: center;
@@ -177,12 +193,9 @@ div.body{
   background-color: var(--secondary-color-two);
   padding: 1rem;
   border-radius: 1rem;
-  margin: 2.5rem;
-  margin-right: 2.5rem;
 }
 .skills .skill-cont .skill-item {
   /* flex: 1 1 25%; */
-  margin: 1rem;
   border: 2px var(--secondary-color-one) solid;
   padding: 1rem;
   border-radius: 1rem;
@@ -192,7 +205,6 @@ div.body{
   flex-wrap: wrap;
   justify-content: space-between ; */
   width: 100%;
-  padding: 1rem;
 }
 /* .tools span marquee{
   padding: 2rem;
@@ -208,7 +220,6 @@ div.body{
   border-radius: 5px;
 }
 .projects {
-  margin: 4rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -270,14 +281,13 @@ div.body{
 }
 .container {
   margin: 0 auto;
-  padding: 1rem;
 }
 
 /* Contact Section Styles */
 .contact-section {
   padding: 50px 0;
   background-color: var(--secondary-color-two);
-  margin: 2.5rem;
+  margin: 1rem;
   padding: 1rem;
   border-radius: 1rem;
   text-align: center;
@@ -286,6 +296,7 @@ div.body{
   font-size: 2em;
   margin-bottom: 20px;
   color: var(--primary-color-one);
+  margin: 2rem;
 }
 /* .contact-cont{
   display: flex;
