@@ -63,7 +63,7 @@ app.post('/send-email', (req, res) => {
 
 // app.use(express.static('public'));
   
-app.listen(3000, function() {
-    console.log("Server started on port 3000");
+app.listen(5500, function() {
+    console.log("Server started on port 5500");
 });
 
