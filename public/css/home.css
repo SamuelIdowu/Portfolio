@@ -200,7 +200,7 @@ div.body{
   text-align: center;
 }
 .justify {
-  text-align: justify;
+  text-align: flex-start;
 }
 .skills {
   background-color: var(--secondary-color-two);
