@@ -15,6 +15,7 @@
 body {
   color: var(--primary-color-one);
   background-color: var(--primary-color-two);
+  background-image: url("../public/images/dddepth-303.jpg");
   font-family: "Courier New", Courier, monospace;
   margin: 0;
   padding: 0;
