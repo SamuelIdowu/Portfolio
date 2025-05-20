@@ -53,6 +53,10 @@ div.body{
     flex-wrap: wrap;
     justify-content: space-around;
   }
+  /* .about h1 {
+    width: 50%;
+    text-align: center;
+  } */
   .about .about-intro article {
     flex: 1 1 25%;
     margin: 1rem;
